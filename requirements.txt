@@ -1,0 +1,40 @@
+# Core Hugging Face Libraries for NLP
+transformers                        # Hugging Face library for state-of-the-art NLP models
+transformers[sentencepiece]         # Includes SentencePiece tokenizer support for multilingual models
+datasets                            # Datasets library for accessing and preprocessing datasets for ML and NLP
+
+# Metrics and Evaluation
+sacrebleu                           # BLEU metric for evaluating text translations
+rouge_score                         # ROUGE metric for evaluating text summarization quality
+
+# Data Handling and Preprocessing
+pandas                              # Data manipulation and analysis
+nltk                                # Natural Language Toolkit for text preprocessing (e.g., tokenization, stemming)
+py7zr                               # Handles .7z archives for dataset extraction
+
+# Utilities and Progress Tracking
+tqdm                                # Progress bar for loops and processes
+PyYAML                              # Reading and writing YAML configuration files
+ensure==1.0.2                       # Validation library to ensure expected data types and constraints
+python-box==6.0.2                   # Easy-to-use dictionaries with dot notation for config management
+
+# Visualization and Analysis
+matplotlib                          # Data visualization and plotting
+
+# PyTorch and Deep Learning
+torch                               # PyTorch library for deep learning models
+
+# Deployment and Web Application
+fastapi==0.78.0                     # Web framework for building APIs
+uvicorn==0.18.3                     # ASGI server for serving FastAPI apps
+Jinja2==3.1.2                       # Templating engine for FastAPI web applications
+
+# AWS S3 Integration
+boto3                               # AWS SDK for Python for interacting with AWS services
+mypy-boto3-s3                       # Type annotations for boto3 S3 for static analysis and autocompletion
+
+# Interactive Notebook Environment
+notebook                            # Jupyter Notebook support for an interactive development environment
+
+# Local Project Reference
+-e .                                # Local project dependencies (editable install)
