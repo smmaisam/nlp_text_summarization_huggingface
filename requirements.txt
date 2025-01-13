@@ -29,6 +29,9 @@ fastapi==0.78.0                     # Web framework for building APIs
 uvicorn==0.18.3                     # ASGI server for serving FastAPI apps
 Jinja2==3.1.2                       # Templating engine for FastAPI web applications
 
+pywinpty==2.0.10
+
+
 # AWS S3 Integration
 boto3                               # AWS SDK for Python for interacting with AWS services
 mypy-boto3-s3                       # Type annotations for boto3 S3 for static analysis and autocompletion
