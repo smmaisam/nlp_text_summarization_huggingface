@@ -38,3 +38,4 @@ Follow the steps below to update and manage the system:
 5. Update the Pipeline: Update the data processing and training pipeline to reflect changes.
 5. Update main.py: Adjust the entry-point script for any necessary changes.
 6. Update app.py: Modify the web app script (if applicable) to incorporate new updates.
+
